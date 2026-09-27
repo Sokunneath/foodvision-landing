@@ -117,6 +117,8 @@ export default async function handler(req, res) {
                 },
 
                 body: JSON.stringify({
+                    token: process.env.FOODVISION_SCRIPT_TOKEN,
+
                     fullName: fullName.trim(),
                     email: email.trim().toLowerCase(),
                     company: company.trim(),
