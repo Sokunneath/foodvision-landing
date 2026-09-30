@@ -11,7 +11,7 @@ const plans = [
     {
         name: "Starter",
         description: "For small teams beginning with demand analytics.",
-        price: "$19",
+        price: "$15",
         period: "/ month",
         icon: Rocket,
         popular: false,
@@ -26,7 +26,7 @@ const plans = [
     {
         name: "Growth",
         description: "For growing businesses that need deeper planning insights.",
-        price: "$39",
+        price: "$29",
         period: "/ month",
         icon: Sparkles,
         popular: false,

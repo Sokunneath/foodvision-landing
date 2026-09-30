@@ -110,15 +110,11 @@ export default async function handler(req, res) {
             googleScriptUrl,
             {
                 method: "POST",
-
                 headers: {
-                    "Content-Type":
-                        "text/plain;charset=utf-8",
+                    "Content-Type": "text/plain;charset=utf-8",
                 },
-
                 body: JSON.stringify({
                     token: process.env.FOODVISION_SCRIPT_TOKEN,
-
                     fullName: fullName.trim(),
                     email: email.trim().toLowerCase(),
                     company: company.trim(),
@@ -128,18 +124,22 @@ export default async function handler(req, res) {
             }
         );
 
-        if (!googleResponse.ok) {
+        const googleResult = await googleResponse.json();
+
+        if (!googleResponse.ok || !googleResult.success) {
             console.error(
-                "Google Apps Script failed:",
-                googleResponse.status
+                "Apps Script error:",
+                googleResult
             );
 
             return res.status(502).json({
                 success: false,
                 message:
+                    googleResult.message ||
                     "Unable to save access request.",
             });
         }
+
 
         // -----------------------------
         // Success
