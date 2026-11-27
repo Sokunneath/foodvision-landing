@@ -1,16 +1,42 @@
-# React + Vite
+# FoodVision — AI-Powered Sales Forecasting
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Making smarter business decisions through data and AI.**
 
-Currently, two official plugins are available:
+FoodVision is an AI-powered sales demand forecasting platform designed to support small and medium-sized food manufacturing enterprises (SMEs). It aims to help businesses make more informed decisions through data-driven insights for sales forecasting, inventory planning, and production management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 **Live Website:** https://foodvision-landing.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About the Project
 
-## Expanding the ESLint configuration
+Small and medium-sized food manufacturers often face challenges in predicting customer demand, managing inventory, and planning production efficiently.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+FoodVision explores how artificial intelligence and data analytics can address these challenges by transforming historical sales data into meaningful insights that support better business decisions.
+
+## Key Features & Objectives
+
+- **Sales Demand Forecasting:** Predict future sales demand using historical data.
+- **Inventory Planning:** Support more informed inventory management.
+- **Production Planning:** Help businesses make data-driven production decisions.
+- **Data Insights:** Transform sales data into meaningful information.
+- **Business Efficiency:** Explore opportunities to improve operational processes through AI.
+
+## Technologies
+
+FoodVision explores technologies across the following areas:
+
+- Frontend Development
+- Backend Development
+- Artificial Intelligence & Machine Learning
+- Data Analytics
+- Database Management
+
+## Project Vision
+
+FoodVision aims to demonstrate how emerging technologies can create meaningful value for small and medium-sized enterprises.
+
+By making AI-powered forecasting more accessible and practical, the project explores how digital solutions can help businesses improve their operations, adapt to changing demand, and make smarter decisions.
+
+
+*FoodVision — Turning data into smarter business decisions.*
